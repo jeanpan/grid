@@ -1,6 +1,6 @@
 ##Grid
 
-It's a simple 12 column based grid layout. <br>
+#### A simple 12 column based grid layout.
 
 #### How to use it ?
 
