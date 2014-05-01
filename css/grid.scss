@@ -1,0 +1,85 @@
+@import "variable";
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.row {
+    padding-bottom: $relative-gutters;
+}
+.row:first-child {
+    padding-top: $relative-gutters;
+}
+.col {
+    margin: $relative-gutters 0;
+}
+
+@media (min-width: 640px) {
+    html {
+        font-size: 112%;
+    }
+
+    .col {
+        float: left;
+        margin: 0 $relative-gutters 0 0;
+    }
+    .col:first-child {
+        margin-left: $relative-gutters;
+    }
+
+    .col.col-1 {
+        @include grid-width(1);
+    }
+    .col.col-2 {
+        @include grid-width(2);
+    }
+    .col.col-3 {
+        @include grid-width(3);
+    }
+    .col.col-4 {
+        @include grid-width(4);
+    }
+    .col.col-5 {
+        @include grid-width(5);
+    }
+    .col.col-6 {
+        @include grid-width(6);
+    }
+    .col.col-7 {
+        @include grid-width(7);
+    }
+    .col.col-8 {
+        @include grid-width(8); 
+    }
+    .col.col-9 {
+        @include grid-width(9);
+    }
+    .col.col-10 {
+        @include grid-width(10);
+    }
+    .col.col-11 {
+        @include grid-width(11); 
+    }
+    .col.col-12 {
+        @include grid-width(12);        
+    }
+}
+
+@media (min-width: 1024px) {
+    html {
+        font-size: 120%;
+    }
+}
+

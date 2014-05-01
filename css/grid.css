@@ -1,0 +1,72 @@
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  *zoom: 1; }
+
+.container {
+  margin: 0 auto;
+  width: 90%; }
+
+.row {
+  padding-bottom: 1.65289%; }
+
+.row:first-child {
+  padding-top: 1.65289%; }
+
+.col {
+  margin: 1.65289% 0; }
+
+@media (min-width: 640px) {
+  html {
+    font-size: 112%; }
+
+  .col {
+    float: left;
+    margin: 0 1.65289% 0 0; }
+
+  .col:first-child {
+    margin-left: 1.65289%; }
+
+  .col.col-1 {
+    width: 6.5427%; }
+
+  .col.col-2 {
+    width: 14.73829%; }
+
+  .col.col-3 {
+    width: 22.93388%; }
+
+  .col.col-4 {
+    width: 31.12948%; }
+
+  .col.col-5 {
+    width: 39.32507%; }
+
+  .col.col-6 {
+    width: 47.52066%; }
+
+  .col.col-7 {
+    width: 55.71625%; }
+
+  .col.col-8 {
+    width: 63.91185%; }
+
+  .col.col-9 {
+    width: 72.10744%; }
+
+  .col.col-10 {
+    width: 80.30303%; }
+
+  .col.col-11 {
+    width: 88.49862%; }
+
+  .col.col-12 {
+    width: 96.69421%; } }
+@media (min-width: 1024px) {
+  html {
+    font-size: 120%; } }

@@ -1,0 +1,18 @@
+html {
+  font-size: 100%; }
+
+.example {
+  border-top: none;
+  background-color: #219f19;
+  color: #fff; }
+
+.grid span {
+  background: rgba(225, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  display: block;
+  padding: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600; }
+
+footer {
+  text-align: right; }

@@ -1,0 +1,11 @@
+$mock-container-width: 1210px;
+
+$total-grid: 12;
+$absolute-gutters: 20px;
+$no-margin-mock-container-width: $mock-container-width - $absolute-gutters;
+
+$relative-gutters: $absolute-gutters / $mock-container-width * 100%;
+
+@mixin grid-width($grid-num) {
+    width: (($no-margin-mock-container-width / $total-grid * $grid-num) - $absolute-gutters) / $mock-container-width * 100%;     
+}
