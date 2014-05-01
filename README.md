@@ -1,9 +1,8 @@
 ##Grid
 
-A simple responsive design grid layout. <br>
-It's a 12 column based grid. 
+It's a simple 12 column based grid layout. <br>
 
-#### how to use it ?
+#### How to use it ?
 
 ```html
 <div class="container">
@@ -14,7 +13,7 @@ It's a 12 column based grid.
 </div>
 ```
 
-#### define by yourself !
+#### Define by yourself !
 
 set the column width & gutters in variable.scss
 
