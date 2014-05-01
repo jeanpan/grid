@@ -2,6 +2,8 @@
 
 #### A simple 12 column based grid layout.
 
+#### [DEMO](http://jeanpan.github.io/grid/)
+
 #### How to use it ?
 
 ```html
